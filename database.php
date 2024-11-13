@@ -1,10 +1,10 @@
 <?php
 //create server connection
-$servername = "cssql.seattleu.edu";
-$username = "ll_azhao4";
-$password = "Cpsc3300Azhao4";
-$database = "ll_azhao4";
-$connection = mysqli_connect($servername, $username, $password, $database);
+$servername = "";
+$username = "";
+$password = "";
+$database = "";
+$conn = mysqli_connect($servername, $username, $password, $database);
 
 //check successful connection
 if(!$connection)
