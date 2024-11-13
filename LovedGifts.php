@@ -1,8 +1,8 @@
 <?php
-$servername = "cssql.seattleu.edu";
-$username = "ll_azhao4";
-$password = "Cpsc3300Azhao4";
-$database = "ll_azhao4";
+$servername = "";
+$username = "";
+$password = "";
+$database = "";
 $conn = mysqli_connect($servername, $username, $password, $database);
 
 if(!$conn){
